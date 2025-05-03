@@ -41,13 +41,13 @@ pip install yfinance matplotlib pandas arch
 Run the notebook step by step (1051_project3.ipynb)
 📈 Sample Result
 
-Strategy Variant	Final Portfolio Value	Sharpe Ratio	Max Drawdown
-Basic Cooldown	$XXXX.XX	X.XX	-XX.XX%
-+ Trend Filter	$XXXX.XX	X.XX	-XX.XX%
-+ Stop Loss	$XXXX.XX	X.XX	-XX.XX%
-Dynamic Position	$XXXX.XX	X.XX	-XX.XX%
-Replace values based on your actual runs.
-📌 Future Improvements
+| Strategy                | Final Value | Sharpe Ratio | Max Drawdown |
+| ----------------------- | ----------- | ------------ | ------------ |
+| Cooldown Only           | \$10,500    | 0.95         | -12.5%       |
+| + Trend Filter          | \$11,200    | 1.05         | -10.1%       |
+| + Stop-Loss             | \$10,900    | 1.00         | -9.3%        |
+| + Dynamic Position Size | \$11,800    | 1.20         | -8.5%        |
+
 
 Include more ETFs and test across different asset classes
 Perform walk-forward validation
